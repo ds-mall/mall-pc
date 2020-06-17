@@ -1,5 +1,5 @@
 let environment = window.location.hostname === 'localhost' ? 'dev' : 'prod';
-let baseUrl = environment === 'dev' ? 'http://localhost:8088/' : 'http://47.105.41.229:80/';
+let baseUrl = environment === 'dev' ? 'http://localhost:8088' : 'http://47.105.41.229:80';
 
 window.app = {
     serverUrl: baseUrl,                                                     // 接口服务接口地址
