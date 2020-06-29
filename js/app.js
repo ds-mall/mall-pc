@@ -1,5 +1,5 @@
 let environment = window.location.hostname === 'localhost' ? 'dev' : 'prod';
-let baseUrl = environment === 'dev' ? 'http://localhost:8088/mall-api' : 'http://47.105.41.229:80/api/mall-api';
+let baseUrl = environment === 'dev' ? 'http://localhost:8088' : 'http://47.105.41.229:80/api/mall-api';
 let shopIndexUrl = environment === 'dev' ? 'http://localhost:8080/mall-shop' : 'http://47.105.41.229:80/'
 
 window.app = {

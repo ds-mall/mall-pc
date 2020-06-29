@@ -245,7 +245,7 @@
 					var serverUrl = app.serverUrl;
 					axios.defaults.withCredentials = true;
 					axios.get(
-							serverUrl + '/orders/items?userId=' + userInfo.id + "&orderId=" + orderId, {},
+							serverUrl + '/orders/items?userId=' + userInfo.id + "&orderId=" + orderId,
 							{
 								headers: {
 									'headerUserId': userInfo.id,

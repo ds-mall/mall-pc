@@ -850,7 +850,7 @@
 					var serverUrl = app.serverUrl;
 					axios.defaults.withCredentials = true;
 					axios.get(
-							serverUrl + '/address/list?userId=' + userInfo.id, {},
+							serverUrl + '/address/list?userId=' + userInfo.id,
 							{
 								headers: {
 									'headerUserId': userInfo.id,

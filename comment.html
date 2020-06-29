@@ -191,7 +191,8 @@
 					axios.get(
 							serverUrl + '/comments/list?userId=' + userInfo.id +
 							"&page=" + page +
-							"&pageSize=" + pageSize, {}, {
+							"&pageSize=" + pageSize,
+							{
 								headers: {
 									'headerUserId': userInfo.id,
 									'headerUserToken': userInfo.userUniqueToken

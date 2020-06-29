@@ -256,7 +256,7 @@
 					axios.get(
 							serverUrl + '/center/trend?userId=' + userInfo.id +
 							"&page=" + page +
-							"&pageSize=" + pageSize, {},
+							"&pageSize=" + pageSize,
 							{
 								headers: {
 									'headerUserId': userInfo.id,
@@ -301,7 +301,7 @@
 					var serverUrl = app.serverUrl;
 					axios.defaults.withCredentials = true;
 					axios.get(
-							serverUrl + '/center/statusCounts?userId=' + userInfo.id, {},
+							serverUrl + '/center/statusCounts?userId=' + userInfo.id,
 							{
 								headers: {
 									'headerUserId': userInfo.id,
